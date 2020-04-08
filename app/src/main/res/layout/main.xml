@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="自行检查:悬浮窗权限，读写权限"
+		android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:hint="音乐文件路径"
+		android:id="@+id/mainEditText1"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:hint="自己的qq"
+		android:id="@+id/mainEditText2"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="wrap_content"
+		android:text="开启"
+		android:onClick="open"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="随便写的，十分粗糙，不是很优雅"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textColor="#FFE70000"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="使用方法:先输入要发送的音乐路径和使用的qq，然后进入qq聊天，使用录音语音，录音后不要发送，点击悬浮按钮出现弹窗后再发送"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</LinearLayout>
+

@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:27
+-keep class simon.tencent.MainActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:29
+-keepclassmembers class * { *** open(...); }
+
